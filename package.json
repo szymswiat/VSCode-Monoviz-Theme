@@ -1,0 +1,29 @@
+{
+	"name": "monoviz",
+	"displayName": "Monoviz",
+	"description": "Theme based on Darcula optimized for python and semantic tokens.",
+	"version": "0.0.0",
+	"license": "MIT",
+	"publisher": "szymswiat",
+	"preview": true,
+	"extensionDependencies": [
+		"magicstack.magicpython"
+	],
+	"repository": "https://github.com/szymswiat/monoviz-theme",
+	"icon": "images/monoviz_python_snippet.png",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monoviz",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monoviz-color-theme.json"
+			}
+		]
+	}
+}
