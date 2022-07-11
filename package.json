@@ -1,8 +1,8 @@
 {
 	"name": "monoviz",
 	"displayName": "Monoviz",
-	"description": "Theme based on Darcula optimized for python and semantic tokens.",
-	"version": "0.0.0",
+	"description": "Theme based on Darcula, optimized for python and semantic tokens.",
+	"version": "0.0.1",
 	"license": "MIT",
 	"publisher": "szymswiat",
 	"preview": true,

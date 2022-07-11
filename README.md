@@ -4,7 +4,11 @@ Reworked "Darcula Theme inspired by IntelliJ" with better support for Python (mo
 
 ## Installation
 
-- clone this repository and go to root directory
+Install Visual Studio Code Extension manager
+`npm install -g vsce`, <br/>
+then run `Build and install` task and restart VS Code.
+
+It can be done manually using following commands:
 - `npm install -g vsce`
 - `vsce package`
 - `code --install-extension monoviz-[version].vsix`

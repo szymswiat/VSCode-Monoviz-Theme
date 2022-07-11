@@ -703,6 +703,20 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+		{
+			"scope": "support.class.component",
+			"settings": {
+				"foreground": "#FFC66D",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#be5b5be5",
+				"fontStyle": "bold"
+			}
 		}
 	]
 }

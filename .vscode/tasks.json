@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and install",
+            "type": "shell",
+            "command": [
+                "rm *.vsix &&",
+                "vsce package &&",
+                "find -name \"monoviz*.vsix\" | xargs code --install-extension"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}
